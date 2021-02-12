@@ -1,13 +1,14 @@
-1401419c         // 00 
+1401419c         // 00  223.10 MHz, RX
 ffffffff         // 01 
 ffffffff         // 02 
 ffffffff         // 03 
 ffffffff         // 04 
-14015f0c         // 05 
+14015f0c         // 05 224.70 MHz, TX
 ffffffff         // 06 
 ffffffff         // 07 
 ffffffff         // 08 
 ffffffff         // 09 
-ff1e1e04         // 10 
+ff1e1e04         // 10 V = 255, q = 30, Q = 30, BANDID = 4 (UX-39)
 
 // Comments may be added to the right of the '//' bars above, or below this line
+// This is a sample UXFFront config file for the UX-39
