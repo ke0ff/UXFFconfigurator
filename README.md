@@ -9,9 +9,16 @@ configux.exe: A simple console application for WIN10 that provides for managemen
           the application has started.  If an invalid COM port is selected on startup, the extended help
           file is opened.
           
+          V0.5 fixes the UX-129A/E support and includes the UX-129 RIT/VXO capabiulity.
+          
     NOTE: The application is not "signed" so WIN10 may think that it is "dangerous" (yet to be determined).
           The user will have to take the leap-of-faith and "run anyway" since I don't yet know enough about
           WIN apps to get it signed and otherwise righteous.
           
-configux.ini: An optional ini (text format) file for configuring parameters of the configux.exe application.
-ux59.txt:     An example config file for the ICOM UX-59, 6m module.
+"configux.ini" is an optional ini (text format) file for configuring parameters of the configux.exe application.
+"configrun.bat" starts up configux.exe with COM port help if the .ini or default COM port is unavailable.
+
+"ux59.txt" is an example config file for the ICOM UX-59, 6m module.
+
+"list_com_ports.bat" is a utility to quickly list the available COM ports
+
